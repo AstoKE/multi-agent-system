@@ -1,0 +1,39 @@
+agents:
+  backend:
+    enabled: true
+    file: .claude/agents/backend.md
+  database:
+    enabled: true
+    file: .claude/agents/database.md
+  frontend:
+    enabled: true
+    file: .claude/agents/frontend.md
+  git:
+    enabled: true
+    file: .claude/agents/git.md
+  manager:
+    enabled: true
+    file: .claude/agents/manager.md
+  planner:
+    enabled: true
+    file: .claude/agents/planner.md
+  reviewer:
+    enabled: true
+    file: .claude/agents/reviewer.md
+  tester:
+    enabled: true
+    file: .claude/agents/tester.md
+claude:
+  command: claude
+  timeout: 300
+project:
+  description: this is a test project that look for the system is woror not
+  name: test
+  phase: planning
+reporting:
+  output_dir: reports
+token_saving:
+  enabled: true
+  max_context_files: 5
+  read_memory_first: true
+  summarize_threshold: 2000
